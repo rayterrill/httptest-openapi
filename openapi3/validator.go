@@ -79,7 +79,5 @@ func (v Validator) Validate(rr *httptest.ResponseRecorder, req *http.Request) er
 		}
 	}
 
-	fmt.Println(rr.Result().Header)
-
 	return nil
 }
